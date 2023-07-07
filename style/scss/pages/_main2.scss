@@ -1,0 +1,29 @@
+main {
+    background-color: antiquewhite;
+
+    h2 {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 100px;
+        color: darkslateblue;
+        font-weight: 300;
+        font-size: 35px;
+    }
+
+    section div p {
+        font-size: 20px;
+        margin-top: 15px;
+        margin-left: 20px;
+        max-width: 85%;
+    }
+}
+
+
+.imagen_iphone {
+    min-width: 100px;
+    min-height: 200px;
+}
+
+.col-12 {
+    padding-bottom: 50px;
+}

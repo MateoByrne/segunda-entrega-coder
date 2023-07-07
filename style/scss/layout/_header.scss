@@ -1,0 +1,28 @@
+header {
+    background-color: black;
+    width: 100%;
+
+    nav ul {
+        display: flex;
+        justify-content: right;
+        padding-right: 130px;
+        list-style-type: none;
+
+
+        li {
+            text-decoration: none;
+            padding: 40px 60px;
+
+
+            a {
+                text-decoration: none;
+                color: darkgrey;
+
+
+                :hover {
+                    color: white;
+                }
+            }
+        }
+    }
+}

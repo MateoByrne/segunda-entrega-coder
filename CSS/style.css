@@ -38,6 +38,11 @@ header nav ul li a:hover{
 }
 
 /* Main */
+
+main {
+    background-color: antiquewhite;
+}
+
 h1 {
     display: flex;
     justify-content: center;
@@ -58,6 +63,11 @@ p {
     font-weight: 60px;
 }
 
+.imagen_iphone{
+    min-width: 100px;
+    min-height: 200px;
+}
+
 .col-12{
     padding-bottom: 50px;
 }
@@ -66,6 +76,9 @@ main h2{
     display: flex;
     justify-content: center;
     padding-bottom: 100px;
+    color: darkslateblue;
+    font-weight: 300;
+    font-size: 35px;
 }
 
 main section div p{
@@ -75,23 +88,20 @@ main section div p{
     max-width: 85%;
 }
 
-
-main h2 {
-    color: darkslateblue;
-    font-weight: 300;
-    font-size: 35px;
+.card-text{
+    font-size: 15px;
 }
 
-
-
-main {
-    background-color: antiquewhite;
+.card{
+    min-width: 420px;
+    min-height: 400px;
+    
 }
 
 /* Footer General*/
+
 footer {
-    background-color: silver;
-   
+    background-color: silver; 
 }
 
 #footerContenidos1{
@@ -121,14 +131,37 @@ footer {
 }
 
 /* Contacto */
+
 .h2contacto{
     padding: 50px;
 }
+
+.legend_titu{
+    margin-top: 40px;
+}
+
 .contactop {
-    text-align: left;
-    font-style: normal;
     font-weight: bolder;
-    font-size: 15px;
+    font-size: 18px;
+    padding-top: 50px;
+}
+
+.etiqueta{
+    padding: 15px;
+    display: flex;
+    
+}
+
+.tick{
+    margin-left: 4px;
+}
+
+.div_env_lim{
+    margin-top: 80px;
+}
+
+.env_lim{
+    margin: 5px;
 }
 
 /* Productos */
