@@ -1,0 +1,239 @@
+/* Conceptos Generales */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto';
+}
+
+/* Header Index */
+header{
+    background-color: black;
+    width: 100%;
+
+}
+
+header nav ul{
+    display: flex;
+    justify-content: right;
+    padding-right: 130px;
+    list-style-type: none;
+}
+
+header nav ul li{
+    text-decoration: none;
+    padding: 40px 45px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: darkgrey;
+}
+
+header nav ul li a:hover{
+    color: white;
+}
+
+/* Main */
+
+main {
+    background-color: bisque;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: 50;
+    font-size: 50px;
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+
+h2 {
+font-size: 60px;
+}
+
+p {
+    list-style-type: none;
+    font-size: 15px;
+    font-weight: 60px;
+}
+
+.imagen_iphone{
+    min-height: 200px;
+    min-width: 100px;
+}
+
+.col-12{
+    padding-bottom: 50px;
+}
+
+main h2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    color: darkslateblue;
+    font-weight: 300;
+    font-size: 35px;
+}
+
+main section div p{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+    max-width: 85%;
+}
+
+.card-text{
+    font-size: 15px;
+}
+
+.card{
+    min-width: 420px;
+    min-height: 400px;
+}
+
+/* Footer General*/
+
+footer {
+    background-color: silver; 
+}
+
+#footerContenidos1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+#footerContenidos2{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    padding-bottom: 70px;
+}
+
+.irArriba{
+    text-decoration: none;
+    font-size: 20px; 
+    font-weight: 50;
+    color: darkgray;
+    background-color: dimgray;
+    margin-bottom: 30px;
+    border-radius: 7px;
+}
+
+.irArriba:hover{
+    color: white;
+}
+
+/* Contacto */
+
+.h1contacto{
+    padding: 50px;
+}
+
+.legend_titu{
+    margin-top: 85px;
+}
+
+.contactop {
+    font-weight: bolder;
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.etiqueta{
+    padding: 5px;
+}
+
+.tick{
+    margin-left: 4px;
+}
+
+.div_env_lim{
+    margin-top: 50px;
+}
+
+.env_lim{
+    margin-bottom: 20px
+}
+
+/* Productos */
+
+.h1productos{
+    padding: 50px;
+}
+
+#tablaproductos {
+    text-align: center;
+}
+
+.contactop{
+    font-size: 30px;
+    margin-left: 200px;
+}
+
+.eleccion{
+    margin-left: 300px;
+    padding: 60px;
+}
+
+.individual{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.button{
+    margin-right: 700px;
+}
+
+/* FAQ */
+
+.h1faq{
+    padding: 50px;
+    padding-bottom: 50px;
+}
+
+.h2faq{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.pfaq{
+    padding-top: 40px;
+    padding-bottom: 90px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    font-size: 27px;
+}
+
+/* Sobre Nosotros */
+
+.titulo_nosotros{
+padding: 50px;
+}
+
+.h2_sobrenosotros {
+    font-size: 30px;
+    padding: 50px;
+}
+
+.texto_nosotros{
+font-size: 20px;
+padding: 40px;
+}
+
+.carousel-item{
+    width: 800px;
+    margin-left: 28%;
+    padding: 50px;
+}
+
+.carousel{
+    padding-bottom: 100px;
+}

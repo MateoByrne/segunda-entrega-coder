@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Somos tu proveedor de productos Apple Minorista y Mayorista que mayor cantidad y mejores productos ofrece.">
-    <meta name="keywords" content="IPhone, IPad, MacBook, Apple Watch, Accesorios, Pro, Max, 128, 256, usd, Black, White, none.">
+    <meta name="description"
+        content="Somos tu proveedor de productos Apple Minorista y Mayorista que mayor cantidad y mejores productos ofrece.">
+    <meta name="keywords"
+        content="IPhone, IPad, MacBook, Apple Watch, Accesorios, Pro, Max, 128, 256, usd, Black, White, none.">
     <link rel="shortcut icon" href="./images/digitalstoreplus.jpeg" type="image/x-icon">
     <link rel="shortcut icon" href="./images/digitalstoreplus.jpeg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +18,7 @@
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../style/css/style.css">
     <title>Productos | Modelos que ofrecemos.</title>
 </head>
 
@@ -53,206 +55,245 @@
 
     <main>
 
-        <h2>Productos</h2>
+        <h1 class="h1productos">Productos</h1>
 
-        <div>
-            <p class="contactop">Producto el cual estoy interesado:</p>
+        <section class="container">
+            <div class="column">
+                <p class="contactop">Producto el cual estoy interesado:</p>
 
-            <br><br>
+                <div class="eleccion">
+                    <div class="individual">
+                        <label for="iphone">IPhone</label>
+                        <input class="button" type="radio" id="iphone" value="iph" name="produ" required>
+                    </div>
+                    <div class="individual">
+                        <label for="mac">MacBook</label>
+                        <input class="button" type="radio" id="mac" value="mac" name="produ" required>
+                    </div>
+                    <div class="individual">
+                        <label for="ipad">IPad</label>
+                        <input class="button" type="radio" id="ipad" value="ip" name="produ" required>
+                    </div>
+                    <div class="individual">
+                        <label for="applew">Apple Watch</label>
+                        <input class="button" type="radio" id="applew" value="apple" name="produ" required>
+                    </div>
+                    <div class="individual">
+                        <label for="acces">Accesorios</label>
+                        <input class="button" type="radio" id="acces" value="apple" name="produ" required>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <label for="iphone">IPhone</label>
-            <input type="radio" id="iphone" value="iph" name="produ" required>
-
-            <label for="mac">MacBook</label>
-            <input type="radio" id="mac" value="mac" name="produ" required>
-
-            <label for="ipad">IPad</label>
-            <input type="radio" id="ipad" value="ip" name="produ" required>
-
-            <label for="applew">Apple Watch</label>
-            <input type="radio" id="applew" value="apple" name="produ" required>
-
-            <label for="acces">Accesorios</label>
-            <input type="radio" id="acces" value="apple" name="produ" required>
-
-        </div>
-
-        <br><br><br>
-
-        <table id="tablaproductos" border="8">
-
-            <thead>
-                <tr>
-                    <th>Modelo</th>
-                    <th>Precio</th>
-                    <th>Color</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>IPhone 11 64 GB</td>
-                    <td>550 usd</td>
-                    <td>Black/White</td>
-                </tr>
-                <tr>
-                    <td>IPhone 11 128 GB</td>
-                    <td>625 usd</td>
-                    <td>Black/White</td>
-                </tr>
-                <tr>
-                <tr>
-                    <td>IPhone 12 pro 128 GB</td>
-                    <td>910 usd</td>
-                    <td>White/Red/Yellow/Blue</td>
-                </tr>
-                <tr>
-                    <td>IPhone 12 pro max 128 GB</td>
-                    <td>1010 usd</td>
-                    <td>Black/White</td>
-                </tr>
-                <tr>
-                    <td>IPhone 12 pro max 256 GB</td>
-                    <td>1165 usd</td>
-                    <td>Red/White/Black</td>
-                </tr>
-                <tr>
-                    <td>IPhone 13 pro 128 GB</td>
-                    <td>1115 usd</td>
-                    <td>Black/White</td>
-                </tr>
-                <tr>
-                    <td>IPhone 13 pro 256 GB</td>
-                    <td>1180 usd</td>
-                    <td>Black</td>
-                </tr>
-                <tr>
-                    <td>IPhone 13 pro max 256 GB</td>
-                    <td>1270 usd</td>
-                    <td>White/Blue</td>
-                </tr>
-                <tr>
-                    <td>IPhone 14 pro 128 GB</td>
-                    <td>1140 usd</td>
-                    <td>Red/Yellow/Black</td>
-                </tr>
-                <tr>
-                    <td>IPhone 14 pro 256 GB</td>
-                    <td>1240 usd</td>
-                    <td>Black/White</td>
-                </tr>
-                <tr>
-                    <td>IPhone 14 pro max 128 GB</td>
-                    <td>1240 usd</td>
-                    <td>Black/White</td>
-                </tr>
-                <tr>
-                    <td>IPhone 14 pro max 256 GB</td>
-                    <td>1340 usd</td>
-                    <td>Black/White</td>
-                </tr>
-                <tr>
-                    <td>IPad 4ta gen.</td>
-                    <td>550 usd</td>
-                    <td>Black/White</td>
-                </tr>
-                <tr>
-                    <td>IPad 5ta gen.</td>
-                    <td>600 usd</td>
-                    <td>Black/White</td>
-                </tr>
-                <tr>
-                    <td>IPad 6ta gen.</td>
-                    <td>650 usd</td>
-                    <td>Black/White</td>
-                </tr>
-                <tr>
-                    <td>IPad 7ma gen.</td>
-                    <td>700 usd</td>
-                    <td>Black/White</td>
-                </tr>
-                <tr>
-                    <td>MacBook Air</td>
-                    <td>1900 usd</td>
-                    <td>none</td>
-                </tr>
-                <tr>
-                    <td>MacBook Pro</td>
-                    <td>2300 usd</td>
-                    <td>none</td>
-                </tr>
-                <tr>
-                    <td>MacBook Mini</td>
-                    <td>1700 usd</td>
-                    <td>none</td>
-                </tr>
-                <tr>
-                    <td>Apple Watch series 4</td>
-                    <td>200 usd</td>
-                    <td>White</td>
-                </tr>
-                <tr>
-                    <td>Apple Watch series 5</td>
-                    <td>250 usd</td>
-                    <td>Black/Pink</td>
-                </tr>
-                <tr>
-                    <td>Apple Watch series 6</td>
-                    <td>300 usd</td>
-                    <td>Pink/White</td>
-                </tr>
-                <tr>
-                    <td>Apple Watch series 7</td>
-                    <td>350 usd</td>
-                    <td>Pink</td>
-                </tr>
-                <tr>
-                    <td>Apple Watch series 8</td>
-                    <td>400 usd</td>
-                    <td>Black/White</td>
-                </tr>
-                <tr>
-                    <td>Apple Watch series ultra</td>
-                    <td>500 usd</td>
-                    <td>Black</td>
-                </tr>
-                <tr>
-                    <td>Cargador USB-C</td>
-                    <td>30 usd</td>
-                    <td>none</td>
-                </tr>
-                <tr>
-                    <td>Cargador MagSafe</td>
-                    <td>55 usd</td>
-                    <td>none</td>
-                </tr>
-                <tr>
-                    <td>Funda cargadora MagSafe</td>
-                    <td>100 usd</td>
-                    <td>White</td>
-                </tr>
-                <tr>
-                    <td>Auriculares de cable</td>
-                    <td>20 usd</td>
-                    <td>none</td>
-                </tr>
-                <tr>
-                    <td>AirPods 2</td>
-                    <td>150 usd</td>
-                    <td>none</td>
-                </tr>
-                <tr>
-                    <td>AirPods Pro</td>
-                    <td>200 usd</td>
-                    <td>none</td>
-                </tr>
-                <tr>
-                    <td>AirPods Pro 2</td>
-                    <td>250 usd</td>
-                    <td>none</td>
-                </tr>
-
-            </tbody>
-        </table>
+        <section class="container">
+            <div class="row">
+                <table class="table table-dark table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Modelo</th>
+                            <th scope="col">Precio</th>
+                            <th scope="col">Color</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>IPhone 11 64 GB</td>
+                            <td>550 USD</td>
+                            <td>Black/White</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>IPhone 11 128 GB</td>
+                            <td>625 USD</td>
+                            <td>Black/White</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>IPhone 12 pro 128 GB</td>
+                            <td>910 USD</td>
+                            <td>White/Red/Yellow/Blue</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>IPhone 12 pro max 128 GB</td>
+                            <td>1010 USD</td>
+                            <td>Black/White</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                            <td>IPhone 12 pro max 256 GB</td>
+                            <td>1165 USD</td>
+                            <td>Red/Black/White</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">6</th>
+                            <td>IPhone 13 pro 128 GB</td>
+                            <td>1115 USD</td>
+                            <td>Black/White</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">7</th>
+                            <td>IPhone 13 pro 256 GB</td>
+                            <td>1180 USD</td>
+                            <td>Black</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">8</th>
+                            <td>IPhone 13 pro max 256 GB</td>
+                            <td>1270 USD</td>
+                            <td>Blue/White</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">9</th>
+                            <td>IPhone 14 pro 128 GB</td>
+                            <td> 1140 USD</td>
+                            <td>Red/Yellow/Black</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">10</th>
+                            <td>IPhone 14 pro 256 GB</td>
+                            <td>1240 USD</td>
+                            <td>Black/White</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">11</th>
+                            <td>IPhone 14 pro max 128 GB</td>
+                            <td>1240 USD</td>
+                            <td>Black/White</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">12</th>
+                            <td>IPhone 14 pro max 256 GB</td>
+                            <td>1340 USD</td>
+                            <td>Black/White</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">13</th>
+                            <td>IPad 4ta gen.</td>
+                            <td>550 USD</td>
+                            <td>Black/White</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">14</th>
+                            <td>IPad 5ta gen.</td>
+                            <td>600 USD</td>
+                            <td>Black/White</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">15</th>
+                            <td>IPad 6ta gen.</td>
+                            <td>650 USD</td>
+                            <td>Black/White</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">16</th>
+                            <td>IPad 7ma gen.</td>
+                            <td>700 USD</td>
+                            <td>Black/White</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">17</th>
+                            <td>MacBook Air</td>
+                            <td>1900 USD</td>
+                            <td>none</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">18</th>
+                            <td>MacBook Pro</td>
+                            <td>2300 USD</td>
+                            <td>none</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">19</th>
+                            <td>MacBook Mini</td>
+                            <td>1700 USD</td>
+                            <td>none</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">20</th>
+                            <td>Apple Watch series 4</td>
+                            <td>200 USD</td>
+                            <td>White</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">21</th>
+                            <td>Apple Watch series 5</td>
+                            <td>250 USD</td>
+                            <td>Black/Pink</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">22</th>
+                            <td>Apple Watch series 6</td>
+                            <td>300 USD</td>
+                            <td>Pink/White</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">23</th>
+                            <td>Apple Watch series 7</td>
+                            <td>350 USD</td>
+                            <td>Pink</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">24</th>
+                            <td>Apple Watch series 8</td>
+                            <td>400 USD</td>
+                            <td>Black/White</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">25</th>
+                            <td>Apple Watch series ULTRA</td>
+                            <td>500 USD</td>
+                            <td>Black</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">26</th>
+                            <td>Cargador USB-C</td>
+                            <td>30 USD</td>
+                            <td>none</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">27</th>
+                            <td>Cargador MagSafe</td>
+                            <td>55 USD</td>
+                            <td>none</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">28</th>
+                            <td>Funda cargadora MagSafe</td>
+                            <td>100 USD</td>
+                            <td>White</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">29</th>
+                            <td>Auriculares de cable</td>
+                            <td>20 USD</td>
+                            <td>White</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">30</th>
+                            <td>AirPods 2</td>
+                            <td>150 USD</td>
+                            <td>White</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">31</th>
+                            <td>AirPods Pro</td>
+                            <td>200 USD</td>
+                            <td>White</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">32</th>
+                            <td>AirPods Pro 2</td>
+                            <td>250 USD</td>
+                            <td>White</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -269,12 +310,29 @@
             <div>
                 <h3 id="redesSociales" class="FooterTitulos">Síguenos en:</h3>
                 <ul>
-                    <li>Twitter</li>
-                    <li>Instagram</li>
-                    <li>Facebook</li>
+                    <li class="redesTamaño">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-twitter" viewBox="0 0 16 16">
+                            <path
+                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                        </svg>
+                    </li>
+                    <li class="redesTamaño">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                        </svg>
+                    </li>
+                    <li class="redesTamaño">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                        </svg>
+                    </li>
                 </ul>
             </div>
-
             <section>
                 <form action="">
 

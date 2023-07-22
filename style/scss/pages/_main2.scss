@@ -1,5 +1,5 @@
 main {
-    background-color: antiquewhite;
+    background-color: bisque;
 
     h2 {
         display: flex;
@@ -18,12 +18,15 @@ main {
     }
 }
 
-
 .imagen_iphone {
-    min-width: 100px;
     min-height: 200px;
+    min-width: 100px;
 }
 
 .col-12 {
     padding-bottom: 50px;
+}
+
+.card-text{
+    font-size: 15px;
 }

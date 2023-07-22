@@ -2,14 +2,14 @@ footer {
     background-color: silver;
 }
 
-#footerContenidos1 {
+#footerContenidos1{
     display: flex;
     justify-content: space-evenly;
     padding-top: 50px;
 }
 
-#footerContenidos2 {
-    display: flex;
+#footerContenidos2{
+    display:flex;
     justify-content: space-evenly;
     margin-top: 70px;
     padding-bottom: 70px;
@@ -19,7 +19,7 @@ footer {
     text-decoration: none;
     font-size: 18px;
     color: darkgray;
-    background-color: black;
+    background-color: darkblue;
     margin-bottom: 30px;
     border-radius: 7px;
 
